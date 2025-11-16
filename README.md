@@ -50,7 +50,7 @@ ask (shows help)
 
 ---
 
-### 🌤️ Weather Bot (`weather.py`)
+### 🌤️ Weather Bot (`PirateWeather.py`)
 
 Get weather information for any location using Pirate Weather API with OpenStreetMap geocoding.
 
@@ -210,7 +210,7 @@ You can test scripts locally before deploying:
 
 ```bash
 # Test weather script
-TEST_MODE=true PARAM_location="New York" PIRATE_WEATHER_API_KEY=your_key python3 weather.py
+TEST_MODE=true PARAM_location="New York" PIRATE_WEATHER_API_KEY=your_key python3 PirateWeather.py
 
 # Test AI script
 TEST_MODE=true PARAM_question="What is mesh?" python3 ai.py
